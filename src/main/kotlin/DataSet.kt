@@ -1,3 +1,11 @@
+class Point(
+    val x: Double,
+    val y: Double,
+    val z: Double
+) {
+    override fun toString() = "(${x.toInt()}, ${y.toInt()}, ${z.toInt()})"
+}
+
 fun getDataSet() = arrayOf(
     Point(15.0, 6.0, 15.0),
     Point(1.0, 19.0, 0.0),

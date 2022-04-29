@@ -1,6 +1,6 @@
 import org.ejml.simple.SimpleMatrix
 
-object CovMatrixKt {
+object CovMatrixHelper {
 
     fun getCovMatrix(cluster: Cluster, invert: Boolean): SimpleMatrix {
         val d: List<Point> = cluster.elements
